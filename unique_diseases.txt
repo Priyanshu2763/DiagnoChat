@@ -1,0 +1,150 @@
+Common Cold
+Influenza(flu)
+Dengue Fever
+Malaria
+Typhoid Fever
+Allergic Rhinitis
+Seasonal Allergies
+Acute Respiratory Distress
+Whooping Cough (Pertussis)
+Tonsillitis
+Chickenpox
+Measles
+Mumps
+Tuberculosis
+COVID-19
+Pneumonia
+Bronchitis
+Sinusitis
+Pharyngitis
+Gastroenteritis
+Food Poisoning
+Hepatitis A
+Hepatitis B
+Hepatitis C
+HIV/AIDS
+Asthma
+COPD
+Laryngitis
+Pleurisy
+Pulmonary Embolism
+Gastritis
+Peptic Ulcer
+GERD
+IBS
+Constipation
+Diarrhea
+Appendicitis
+Gallstones
+Liver Cirrhosis
+Pancreatitis
+Hypertension
+Hypotension
+Coronary Artery Disease
+Angina
+Heart Attack(Myocardial Infarction)
+Stroke
+Arrhythmia
+Congestive Heart Failure
+Atherosclerosis
+Peripheral Artery Disease
+Migraine
+Tension Headache
+Cluster Headache
+Epilepsy
+Alzheimer’s Disease
+Parkinson’s Disease
+Stroke (Ischemic)
+Stroke (Hemorrhagic)
+Brain Tumor
+Multiple Sclerosis
+Diabetes Mellitus Type 1
+Diabetes Mellitus Type 2
+Hypoglycemia
+Hyperthyroidism
+Goiter
+Obesity
+Polycystic Ovary Syndrome (PCOS)
+Addison’s Disease
+Cushing’s Syndrome
+Arthritis (Osteoarthritis)
+Rheumatoid Arthritis
+Gout
+Osteoporosis
+Back Pain
+Sciatica
+Spondylitis
+Fibromyalgia
+Muscle Cramps
+Tendinitis
+Acne
+Eczema
+Psoriasis
+Fungal Infections (Ringworm)
+Athlete’s Foot
+Urticaria (Hives)
+Cellulitis
+Boils
+Vitiligo
+Herpes Zoster (Shingles)
+Urinary Tract Infection (UTI)
+Kidney Stones
+Chronic Kidney Disease
+Acute Kidney Injury
+Cystitis
+Pyelonephritis
+Nephrotic Syndrome
+Prostatitis
+Benign Prostatic Hyperplasia (BPH)
+Glomerulonephritis
+Menstrual Cramps (Dysmenorrhea)
+Endometriosis
+Pelvic Inflammatory Disease (PID)
+Ovarian Cyst
+Infertility
+Erectile Dysfunction
+Prostate Cancer
+Cervical Cancer
+Breast Cancer
+Uterine Fibroids
+Anxiety Disorder
+Depression
+Bipolar Disorder
+Schizophrenia
+Insomnia
+Stress Disorder
+Obsessive Compulsive Disorder (OCD)
+Post-Traumatic Stress Disorder (PTSD)
+Panic Disorder
+Eating Disorders
+Hand Foot and Mouth Disease
+Scarlet Fever
+Rickets
+Anemia (Iron Deficiency)
+Vitamin D Deficiency
+Vitamin B12 Deficiency
+Dehydration
+Malnutrition
+Heat Stroke
+Hypothermia
+Lung Cancer
+Colorectal Cancer
+Stomach Cancer
+Liver Cancer
+Pancreatic Cancer
+Skin Cancer (Melanoma)
+Blood Cancer (Leukemia)
+Conjunctivitis (Pink Eye)
+Cataract
+Glaucoma
+Otitis Media (Ear Infection)
+Hearing Loss
+Vertigo
+Allergic Reactions
+Sepsis
+Lupus (SLE)
+Lyme Disease
+Disease
+Chikungunya
+Smallpox
+Yellow Fever

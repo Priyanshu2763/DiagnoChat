@@ -1,0 +1,1187 @@
+Disease,Symptom,Weight
+Common Cold,Runny or stuffy nose,0.8
+Common Cold,Sore or scratchy throat,0.7
+Common Cold,Sneezing,0.7
+Common Cold,Cough,0.6
+Common Cold,Mild headache,0.5
+Common Cold,Mild body aches,0.4
+Common Cold,Mild fever,0.4
+Common Cold,Tiredness,0.5
+Influenza,Fever with sudden onset,0.9
+Influenza,Dry cough,0.8
+Influenza,Sore throat,0.7
+Influenza,Runny or stuffy nose,0.6
+Influenza,Headache,0.7
+Influenza,Muscle and body aches,0.9
+Influenza,Chills,0.8
+Influenza,Fatigue and weakness,0.7
+Influenza,Vomiting or diarrhea (children),0.5
+Dengue Fever,High fever,0.9
+Dengue Fever,Severe headache (behind eyes),0.8
+Dengue Fever,Severe muscle and joint pain,0.9
+Dengue Fever,Nausea or vomiting,0.6
+Dengue Fever,Skin rash,0.7
+Dengue Fever,"Mild bleeding (nose, gums, bruising)",0.8
+Dengue Fever,Fatigue,0.6
+Malaria,Cyclical fever with chills,1
+Malaria,Shaking and sweating,0.8
+Malaria,Headache,0.7
+Malaria,Muscle and joint pain,0.7
+Malaria,Nausea or vomiting,0.6
+Malaria,Diarrhea,0.5
+Malaria,Fatigue,0.7
+Malaria,Abdominal discomfort,0.6
+Typhoid Fever,Gradually rising fever,0.9
+Typhoid Fever,Headache,0.7
+Typhoid Fever,General weakness and fatigue,0.7
+Typhoid Fever,Stomach pain,0.8
+Typhoid Fever,Loss of appetite,0.6
+Typhoid Fever,Rose-colored skin rash,0.8
+Typhoid Fever,Constipation or diarrhea,0.6
+Typhoid Fever,Dry cough,0.5
+Typhoid Fever,Sweating,0.4
+Chickenpox,Mild to moderate fever,0.7
+Chickenpox,Itchy rash with blisters,1
+Chickenpox,Tiredness,0.6
+Chickenpox,Headache,0.5
+Chickenpox,Loss of appetite,0.5
+Measles,High fever,0.8
+Measles,Cough,0.7
+Measles,Runny nose,0.7
+Measles,Red watery eyes,0.8
+Measles,Koplik spots in mouth,1
+Measles,Spreading skin rash,0.9
+Measles,Tiredness,0.6
+Mumps,Swollen cheeks or jaw,1
+Mumps,Fever,0.7
+Mumps,Headache,0.6
+Mumps,Muscle aches,0.6
+Mumps,Tiredness,0.6
+Mumps,Loss of appetite,0.5
+Tuberculosis,Persistent cough for weeks,0.9
+Tuberculosis,Coughing blood or sputum,1
+Tuberculosis,Night sweats,0.8
+Tuberculosis,Unexplained weight loss,0.9
+Tuberculosis,Fever,0.6
+Tuberculosis,Chest pain,0.7
+Tuberculosis,Tiredness,0.7
+COVID-19,Fever or chills,0.8
+COVID-19,Dry cough,0.8
+COVID-19,Tiredness,0.7
+COVID-19,Loss of taste or smell,1
+COVID-19,Difficulty breathing,0.9
+COVID-19,Sore throat,0.7
+COVID-19,Runny or stuffy nose,0.6
+COVID-19,Headache,0.6
+COVID-19,Muscle or body pain,0.6
+COVID-19,Nausea or vomiting,0.5
+COVID-19,Diarrhea,0.5
+Pneumonia,High fever,0.8
+Pneumonia,Chills and sweating,0.7
+Pneumonia,Cough with mucus or pus,0.9
+Pneumonia,Chest pain when breathing or coughing,1
+Pneumonia,Shortness of breath,0.9
+Pneumonia,Tiredness,0.6
+Pneumonia,Loss of appetite,0.5
+Bronchitis,Persistent cough,0.9
+Bronchitis,Cough with mucus,0.8
+Bronchitis,Wheezing,0.7
+Bronchitis,Chest discomfort,0.7
+Bronchitis,Mild fever and chills,0.6
+Bronchitis,Tiredness,0.6
+Bronchitis,Shortness of breath,0.7
+Sinusitis,Facial pain or pressure,0.9
+Sinusitis,Nasal congestion,0.8
+Sinusitis,Runny nose with thick mucus,0.9
+Sinusitis,Headache (forehead/eyes),0.8
+Sinusitis,Reduced sense of smell or taste,0.7
+Sinusitis,Sore throat,0.6
+Sinusitis,Cough (worse at night),0.6
+Sinusitis,Bad breath,0.5
+Pharyngitis,Sore throat (painful swallowing),1
+Pharyngitis,Red or swollen throat,0.9
+Pharyngitis,Fever,0.7
+Pharyngitis,Headache,0.6
+Pharyngitis,Swollen neck lymph nodes,0.7
+Pharyngitis,Cough,0.5
+Pharyngitis,Runny nose,0.5
+Pharyngitis,Tiredness,0.5
+Gastroenteritis,Watery diarrhea,1
+Gastroenteritis,Nausea and vomiting,0.9
+Gastroenteritis,Stomach cramps,0.9
+Gastroenteritis,Low-grade fever,0.6
+Gastroenteritis,Tiredness,0.6
+Gastroenteritis,Loss of appetite,0.5
+Gastroenteritis,Headache,0.5
+Gastroenteritis,"Dehydration (dry mouth, dizziness)",0.9
+Food Poisoning,Nausea and vomiting,0.9
+Food Poisoning,Diarrhea,0.9
+Food Poisoning,Stomach cramps,0.9
+Food Poisoning,Fever,0.6
+Food Poisoning,Headache,0.5
+Food Poisoning,Weakness,0.6
+Food Poisoning,"Dehydration (dry mouth, dizziness)",0.8
+Hepatitis A,Fatigue,0.8
+Hepatitis A,Sudden nausea and vomiting,0.7
+Hepatitis A,Stomach pain (right side),0.8
+Hepatitis A,Loss of appetite,0.6
+Hepatitis A,Low-grade fever,0.6
+Hepatitis A,Dark-colored urine,0.9
+Hepatitis A,Yellowing of skin or eyes (jaundice),1
+Hepatitis B,Fatigue,0.8
+Hepatitis B,Fever,0.6
+Hepatitis B,Loss of appetite,0.6
+Hepatitis B,Nausea and vomiting,0.7
+Hepatitis B,Stomach pain (right side),0.8
+Hepatitis B,Dark-colored urine,0.9
+Hepatitis B,Yellowing of skin or eyes (jaundice),1
+Hepatitis B,Joint pain,0.7
+Hepatitis C,Fatigue,0.8
+Hepatitis C,Fever,0.6
+Hepatitis C,Nausea,0.6
+Hepatitis C,Loss of appetite,0.6
+Hepatitis C,Stomach pain,0.7
+Hepatitis C,Dark-colored urine,0.9
+Hepatitis C,Yellowing of skin or eyes (jaundice),1
+Hepatitis C,Joint pain,0.7
+HIV/AIDS,Fever,0.6
+HIV/AIDS,Night sweats,0.8
+HIV/AIDS,Swollen lymph nodes,0.8
+HIV/AIDS,Rapid weight loss,0.9
+HIV/AIDS,Extreme tiredness,0.9
+HIV/AIDS,Long-lasting diarrhea,0.8
+HIV/AIDS,Recurring skin rashes,0.7
+HIV/AIDS,Frequent infections,0.9
+HIV/AIDS,Memory loss or confusion (advanced),0.8
+Asthma,Shortness of breath,0.9
+Asthma,Wheezing,1
+Asthma,Chest tightness,0.9
+Asthma,Coughing (especially at night),0.8
+Asthma,Fatigue,0.6
+Asthma,Rapid breathing,0.8
+Asthma,Difficulty sleeping due to symptoms,0.7
+Chronic Obstructive Pulmonary Disease (COPD),Chronic cough,0.9
+Chronic Obstructive Pulmonary Disease (COPD),Cough with mucus,0.9
+Chronic Obstructive Pulmonary Disease (COPD),Shortness of breath (worse on exertion),1
+Chronic Obstructive Pulmonary Disease (COPD),Wheezing,0.8
+Chronic Obstructive Pulmonary Disease (COPD),Chest tightness,0.8
+Chronic Obstructive Pulmonary Disease (COPD),Frequent respiratory infections,0.8
+Chronic Obstructive Pulmonary Disease (COPD),Fatigue,0.7
+Chronic Obstructive Pulmonary Disease (COPD),Weight loss (advanced),0.7
+Allergic Rhinitis,Sneezing,0.9
+Allergic Rhinitis,Runny or stuffy nose,1
+Allergic Rhinitis,Itchy eyes/nose/throat,0.9
+Allergic Rhinitis,Watery eyes,0.8
+Allergic Rhinitis,Cough,0.6
+Allergic Rhinitis,Postnasal drip,0.7
+Allergic Rhinitis,Fatigue,0.6
+Seasonal Allergies,Sneezing,0.9
+Seasonal Allergies,Runny or congested nose,0.9
+Seasonal Allergies,Itchy/watery eyes,0.9
+Seasonal Allergies,Throat irritation,0.7
+Seasonal Allergies,Cough,0.6
+Seasonal Allergies,Headache,0.6
+Seasonal Allergies,Fatigue,0.6
+Acute Respiratory Distress,Severe shortness of breath,1
+Acute Respiratory Distress,Rapid breathing,0.9
+Acute Respiratory Distress,Low oxygen levels (hypoxemia),1
+Acute Respiratory Distress,Confusion or extreme fatigue,0.9
+Acute Respiratory Distress,Blue lips or fingertips (cyanosis),1
+Acute Respiratory Distress,Cough,0.7
+Acute Respiratory Distress,Chest pain,0.8
+Whooping Cough (Pertussis),Severe coughing fits,1
+Whooping Cough (Pertussis),"High-pitched ""whoop"" sound after coughing",1
+Whooping Cough (Pertussis),Vomiting after coughing,0.9
+Whooping Cough (Pertussis),Runny nose,0.7
+Whooping Cough (Pertussis),Low-grade fever,0.6
+Whooping Cough (Pertussis),Exhaustion after coughing,0.8
+Whooping Cough (Pertussis),Apnea (in infants),0.9
+Tonsillitis,Sore throat,1
+Tonsillitis,Swollen tonsils,0.9
+Tonsillitis,White or yellow coating on tonsils,0.9
+Tonsillitis,Painful swallowing,0.9
+Tonsillitis,Fever,0.8
+Tonsillitis,Swollen neck lymph nodes,0.8
+Tonsillitis,Bad breath,0.6
+Tonsillitis,Headache,0.6
+Laryngitis,Hoarseness or loss of voice,1
+Laryngitis,Throat pain or irritation,0.8
+Laryngitis,Dry cough,0.8
+Laryngitis,Sore throat,0.7
+Laryngitis,Tickling sensation in throat,0.7
+Laryngitis,Fever (sometimes),0.5
+Laryngitis,Swollen vocal cords,0.9
+Pleurisy,Sharp chest pain (worse with breathing/coughing),1
+Pleurisy,Dry cough,0.7
+Pleurisy,Shortness of breath,0.8
+Pleurisy,Fever,0.6
+Pleurisy,Rapid breathing,0.8
+Pleurisy,Shoulder/back pain,0.7
+Pulmonary Embolism,Sudden shortness of breath,1
+Pulmonary Embolism,Sharp chest pain (worse on deep breaths),1
+Pulmonary Embolism,Rapid heartbeat,0.9
+Pulmonary Embolism,Cough (may produce blood),0.9
+Pulmonary Embolism,Dizziness or fainting,0.8
+Pulmonary Embolism,Low blood pressure,0.8
+Pulmonary Embolism,Anxiety,0.6
+Pulmonary Embolism,Swelling in one leg (clot source),0.8
+Gastritis,Upper abdominal pain/discomfort,1
+Gastritis,Nausea,0.9
+Gastritis,Vomiting,0.8
+Gastritis,Bloating,0.8
+Gastritis,Loss of appetite,0.7
+Gastritis,Belching,0.7
+Gastritis,Indigestion,0.8
+Gastritis,Black/tarry stools (bleeding),0.9
+Peptic Ulcer,Burning stomach pain (worse when empty),1
+Peptic Ulcer,Indigestion,0.8
+Peptic Ulcer,Bloating,0.7
+Peptic Ulcer,Heartburn,0.8
+Peptic Ulcer,Nausea,0.8
+Peptic Ulcer,Dark stools (bleeding),0.9
+Peptic Ulcer,Vomiting blood,0.9
+Peptic Ulcer,Unexplained weight loss,0.7
+Acid Reflux (GERD),Heartburn,1
+Acid Reflux (GERD),Regurgitation of food/sour liquid,0.9
+Acid Reflux (GERD),Chest pain (burning),0.9
+Acid Reflux (GERD),Difficulty swallowing,0.8
+Acid Reflux (GERD),Chronic cough,0.7
+Acid Reflux (GERD),Hoarseness/sore throat,0.8
+Acid Reflux (GERD),Feeling of lump in throat,0.7
+Acid Reflux (GERD),Worsening symptoms at night,0.8
+Irritable Bowel Syndrome (IBS),Abdominal pain/cramping (relieved by passing stool),1
+Irritable Bowel Syndrome (IBS),Bloating,0.9
+Irritable Bowel Syndrome (IBS),Gas,0.8
+Irritable Bowel Syndrome (IBS),Diarrhea,0.9
+Irritable Bowel Syndrome (IBS),Constipation,0.9
+Irritable Bowel Syndrome (IBS),Mucus in stool,0.7
+Irritable Bowel Syndrome (IBS),Urgency to defecate,0.8
+Irritable Bowel Syndrome (IBS),Incomplete bowel movement,0.8
+Constipation,Hard/dry stools,1
+Constipation,Straining during bowel movements,0.9
+Constipation,Fewer than 3 bowel movements/week,0.9
+Constipation,Abdominal pain,0.8
+Constipation,Bloating,0.8
+Constipation,Sensation of incomplete evacuation,0.8
+Constipation,Nausea,0.6
+Diarrhea,Frequent loose/watery stools,1
+Diarrhea,Abdominal cramps,0.9
+Diarrhea,Bloating,0.8
+Diarrhea,Dehydration,0.9
+Diarrhea,Nausea,0.8
+Diarrhea,Fever (sometimes),0.6
+Diarrhea,Urgency to defecate,0.9
+Diarrhea,Blood/mucus in stool (severe cases),0.9
+Appendicitis,"Severe abdominal pain (starting near navel, shifting to lower right)",1
+Appendicitis,Loss of appetite,0.9
+Appendicitis,Nausea,0.9
+Appendicitis,Vomiting,0.8
+Appendicitis,Fever,0.8
+Appendicitis,Abdominal swelling,0.8
+Appendicitis,Constipation or diarrhea,0.7
+Appendicitis,Pain worsening with movement/cough,0.9
+Gallstones,Sudden intense abdominal pain (right upper side),1
+Gallstones,Pain spreading to right shoulder/back,0.9
+Gallstones,Nausea,0.8
+Gallstones,Vomiting,0.8
+Gallstones,Indigestion,0.7
+Gallstones,Bloating,0.7
+Gallstones,Fever/chills (if infection),0.9
+Gallstones,Jaundice (yellow skin/eyes),0.9
+Liver Cirrhosis,Fatigue,0.9
+Liver Cirrhosis,Loss of appetite,0.8
+Liver Cirrhosis,Nausea,0.7
+Liver Cirrhosis,Weight loss,0.8
+Liver Cirrhosis,Jaundice,1
+Liver Cirrhosis,Swelling in legs/ankles (edema),0.9
+Liver Cirrhosis,Abdominal swelling (ascites),0.9
+Liver Cirrhosis,Easy bruising/bleeding,0.9
+Liver Cirrhosis,Confusion/drowsiness (hepatic encephalopathy),0.8
+Pancreatitis,Severe abdominal pain (radiating to back),1
+Pancreatitis,Nausea,0.9
+Pancreatitis,Vomiting,0.9
+Pancreatitis,Fever,0.8
+Pancreatitis,Swollen/tender abdomen,0.8
+Pancreatitis,Increased heart rate,0.8
+Pancreatitis,Oily/foul-smelling stools,0.9
+Pancreatitis,Weight loss,0.7
+Hypertension (High BP),Headache,0.8
+Hypertension (High BP),Dizziness,0.7
+Hypertension (High BP),Blurred vision,0.8
+Hypertension (High BP),Chest pain,0.9
+Hypertension (High BP),Shortness of breath,0.9
+Hypertension (High BP),Nosebleeds,0.7
+Hypertension (High BP),Fatigue,0.8
+Hypertension (High BP),Irregular heartbeat,0.8
+Hypotension (Low BP),Dizziness,1
+Hypotension (Low BP),Fainting (syncope),0.9
+Hypotension (Low BP),Blurred vision,0.8
+Hypotension (Low BP),Nausea,0.7
+Hypotension (Low BP),Fatigue,0.8
+Hypotension (Low BP),Confusion,0.8
+Hypotension (Low BP),Cold/clammy skin,0.8
+Hypotension (Low BP),Rapid shallow breathing,0.8
+Coronary Artery Disease,Chest pain (angina),1
+Coronary Artery Disease,Shortness of breath,0.9
+Coronary Artery Disease,Fatigue,0.9
+Coronary Artery Disease,Palpitations,0.8
+Coronary Artery Disease,Nausea,0.7
+Coronary Artery Disease,Sweating,0.8
+Coronary Artery Disease,Neck/jaw/arm pain,0.9
+Coronary Artery Disease,Swelling in legs/feet,0.8
+Angina,Chest pain/pressure (triggered by exertion),1
+Angina,Pain radiating to arm/neck/jaw,0.9
+Angina,Shortness of breath,0.9
+Angina,Nausea,0.8
+Angina,Fatigue,0.8
+Angina,Sweating,0.8
+Angina,Dizziness,0.7
+Angina,Relief with rest or nitroglycerin,0.9
+Heart Attack (Myocardial Infarction),Severe chest pain/pressure,1
+Heart Attack (Myocardial Infarction),Pain radiating to arm/neck/back,0.9
+Heart Attack (Myocardial Infarction),Shortness of breath,0.9
+Heart Attack (Myocardial Infarction),Nausea,0.8
+Heart Attack (Myocardial Infarction),Vomiting,0.8
+Heart Attack (Myocardial Infarction),"Sweating (cold, clammy)",0.9
+Heart Attack (Myocardial Infarction),Fatigue/weakness,0.8
+Heart Attack (Myocardial Infarction),Anxiety/impending doom,0.8
+Stroke,"Sudden numbness/weakness (face/arm/leg, usually one side)",1
+Stroke,Slurred speech/difficulty speaking,0.9
+Stroke,Confusion,0.9
+Stroke,Sudden vision problems,0.9
+Stroke,Severe headache,0.9
+Stroke,Dizziness/loss of balance,0.8
+Stroke,Difficulty walking,0.8
+Stroke,Loss of coordination,0.8
+Arrhythmia,Palpitations (irregular heartbeat),1
+Arrhythmia,Dizziness,0.9
+Arrhythmia,Fainting (syncope),0.9
+Arrhythmia,Shortness of breath,0.9
+Arrhythmia,Chest pain/discomfort,0.9
+Arrhythmia,Fatigue,0.8
+Arrhythmia,Anxiety,0.7
+Arrhythmia,Fluttering sensation in chest,0.9
+Congestive Heart Failure,Shortness of breath (especially at night),1
+Congestive Heart Failure,Fatigue/weakness,0.9
+Congestive Heart Failure,Swelling in legs/ankles/feet,0.9
+Congestive Heart Failure,Rapid/irregular heartbeat,0.9
+Congestive Heart Failure,Persistent cough/wheezing (pink frothy sputum),0.9
+Congestive Heart Failure,Abdominal swelling,0.8
+Congestive Heart Failure,Weight gain from fluid retention,0.8
+Congestive Heart Failure,Difficulty concentrating,0.7
+Atherosclerosis,Chest pain (angina),1
+Atherosclerosis,Shortness of breath,0.9
+Atherosclerosis,Fatigue,0.8
+Atherosclerosis,Numbness/weakness in limbs,0.9
+Atherosclerosis,Difficulty speaking (if brain arteries affected),0.9
+Atherosclerosis,High blood pressure,0.8
+Atherosclerosis,Poor wound healing,0.8
+Atherosclerosis,Cold hands/feet,0.8
+Peripheral Artery Disease,Leg pain/cramping when walking (claudication),1
+Peripheral Artery Disease,Numbness/weakness in legs,0.9
+Peripheral Artery Disease,Coldness in lower leg/foot,0.9
+Peripheral Artery Disease,Poor wound healing in legs/feet,0.9
+Peripheral Artery Disease,Skin color changes in legs,0.8
+Peripheral Artery Disease,Weak pulse in legs/feet,0.9
+Peripheral Artery Disease,Shiny skin or hair loss on legs,0.8
+Peripheral Artery Disease,Leg sores/gangrene (severe cases),0.9
+Migraine,Severe throbbing headache (often one side),1
+Migraine,Nausea,0.9
+Migraine,Vomiting,0.8
+Migraine,Sensitivity to light (photophobia),0.9
+Migraine,Sensitivity to sound (phonophobia),0.9
+Migraine,Visual disturbances (aura),0.9
+Migraine,Fatigue,0.8
+Migraine,Dizziness,0.8
+Tension Headache,Dull aching head pain,1
+Tension Headache,Tightness/pressure around forehead or scalp,0.9
+Tension Headache,Tenderness in neck/shoulder muscles,0.9
+Tension Headache,Fatigue,0.8
+Tension Headache,Difficulty concentrating,0.8
+Tension Headache,Insomnia,0.7
+Tension Headache,Scalp sensitivity,0.8
+Tension Headache,Stress-related worsening,0.8
+Cluster Headache,Severe burning/stabbing pain (around one eye),1
+Cluster Headache,Red/watery eye on affected side,0.9
+Cluster Headache,Nasal congestion/runny nose (same side),0.9
+Cluster Headache,Restlessness/agitation,0.9
+Cluster Headache,Drooping eyelid (ptosis),0.9
+Cluster Headache,Facial sweating,0.8
+Cluster Headache,Pale/flushed face,0.8
+Cluster Headache,Occurs in cyclical patterns,0.8
+Epilepsy,Recurrent seizures,1
+Epilepsy,Temporary confusion,0.9
+Epilepsy,Staring spells,0.9
+Epilepsy,Uncontrollable jerking movements,0.9
+Epilepsy,Loss of consciousness/awareness,0.9
+Epilepsy,Fear/anxiety before seizure (aura),0.8
+Epilepsy,Fatigue after seizures,0.8
+Epilepsy,Unusual sensations (smells/tastes),0.8
+Alzheimer’s Disease,Memory loss,1
+Alzheimer’s Disease,Confusion with time/place,0.9
+Alzheimer’s Disease,Difficulty completing familiar tasks,0.9
+Alzheimer’s Disease,Language problems (speaking/writing),0.9
+Alzheimer’s Disease,Poor judgment/decision making,0.9
+Alzheimer’s Disease,Mood/behavior changes,0.8
+Alzheimer’s Disease,Withdrawal from work/social activities,0.8
+Alzheimer’s Disease,Disorientation,0.9
+Parkinson’s Disease,Tremors (shaking hands/fingers),1
+Parkinson’s Disease,Slowed movement (bradykinesia),0.9
+Parkinson’s Disease,Muscle stiffness,0.9
+Parkinson’s Disease,Impaired posture/balance,0.9
+Parkinson’s Disease,Speech changes (soft/slurred),0.8
+Parkinson’s Disease,Writing changes (small handwriting),0.8
+Parkinson’s Disease,Facial masking (reduced expressions),0.8
+Parkinson’s Disease,Fatigue,0.8
+Stroke (Ischemic),Sudden numbness/weakness (one side of body),1
+Stroke (Ischemic),Slurred speech/difficulty speaking,0.9
+Stroke (Ischemic),Sudden vision problems,0.9
+Stroke (Ischemic),Severe headache,0.9
+Stroke (Ischemic),Confusion,0.9
+Stroke (Ischemic),Dizziness/loss of balance,0.8
+Stroke (Ischemic),Difficulty walking,0.8
+Stroke (Ischemic),Loss of coordination,0.8
+Stroke (Hemorrhagic),Sudden severe headache (“worst ever”),1
+Stroke (Hemorrhagic),Nausea/vomiting,0.9
+Stroke (Hemorrhagic),Loss of consciousness,0.9
+Stroke (Hemorrhagic),Weakness/numbness on one side,0.9
+Stroke (Hemorrhagic),Vision problems,0.9
+Stroke (Hemorrhagic),Difficulty speaking,0.9
+Stroke (Hemorrhagic),Seizures,0.8
+Stroke (Hemorrhagic),Neck stiffness,0.8
+Brain Tumor,Headaches (worse in morning),1
+Brain Tumor,Nausea/vomiting,0.9
+Brain Tumor,Seizures,0.9
+Brain Tumor,Vision problems (blurred/double vision),0.9
+Brain Tumor,Speech difficulties,0.9
+Brain Tumor,Balance/coordination issues,0.9
+Brain Tumor,Personality/mood changes,0.8
+Brain Tumor,Memory problems,0.8
+Multiple Sclerosis,Vision problems (blurred/double vision),1
+Multiple Sclerosis,Numbness/tingling in limbs,0.9
+Multiple Sclerosis,Weakness in muscles,0.9
+Multiple Sclerosis,Loss of coordination/balance,0.9
+Multiple Sclerosis,Fatigue,0.9
+Multiple Sclerosis,Bladder/bowel dysfunction,0.8
+Multiple Sclerosis,Slurred speech,0.8
+Multiple Sclerosis,Cognitive impairment,0.8
+Diabetes Mellitus Type 1,Frequent urination (polyuria),1
+Diabetes Mellitus Type 1,Excessive thirst (polydipsia),0.9
+Diabetes Mellitus Type 1,Increased hunger (polyphagia),0.9
+Diabetes Mellitus Type 1,Unexplained weight loss,0.9
+Diabetes Mellitus Type 1,Fatigue,0.8
+Diabetes Mellitus Type 1,Blurred vision,0.9
+Diabetes Mellitus Type 1,Slow wound healing,0.8
+Diabetes Mellitus Type 1,Frequent infections,0.8
+Diabetes Mellitus Type 2,Increased thirst,1
+Diabetes Mellitus Type 2,Frequent urination,0.9
+Diabetes Mellitus Type 2,Increased hunger,0.9
+Diabetes Mellitus Type 2,Fatigue,0.9
+Diabetes Mellitus Type 2,Blurred vision,0.9
+Diabetes Mellitus Type 2,Slow wound healing,0.8
+Diabetes Mellitus Type 2,Frequent infections,0.8
+Diabetes Mellitus Type 2,Numbness/tingling in hands or feet,0.9
+Hypoglycemia,Shakiness/trembling,1
+Hypoglycemia,Sweating,0.9
+Hypoglycemia,Hunger,0.9
+Hypoglycemia,Confusion/irritability,0.9
+Hypoglycemia,Dizziness,0.9
+Hypoglycemia,Palpitations (rapid heartbeat),0.9
+Hypoglycemia,Blurred vision,0.8
+Hypoglycemia,Loss of consciousness/seizures (severe),0.8
+Hyperthyroidism,Unintentional weight loss,1
+Hyperthyroidism,Increased appetite,0.9
+Hyperthyroidism,Heat intolerance,0.9
+Hyperthyroidism,Excessive sweating,0.9
+Hyperthyroidism,Rapid/irregular heartbeat,0.9
+Hyperthyroidism,Anxiety/irritability,0.9
+Hyperthyroidism,Tremors (hands/fingers),0.9
+Hyperthyroidism,Goiter (enlarged thyroid),0.8
+Hypothyroidism,Fatigue,1
+Hypothyroidism,Weight gain,0.9
+Hypothyroidism,Cold intolerance,0.9
+Hypothyroidism,Dry skin,0.9
+Hypothyroidism,Constipation,0.9
+Hypothyroidism,Hair thinning/hair loss,0.8
+Hypothyroidism,Depression,0.8
+Hypothyroidism,Slow heart rate (bradycardia),0.8
+Goiter,Visible swelling at base of neck,1
+Goiter,Tight feeling in throat,0.9
+Goiter,Coughing/hoarseness,0.9
+Goiter,Difficulty swallowing,0.9
+Goiter,Difficulty breathing (large goiter),0.9
+Goiter,Neck tenderness,0.8
+Goiter,Neck pressure,0.8
+Goiter,Enlarged thyroid gland,0.9
+Obesity,Excess body fat accumulation,1
+Obesity,Breathlessness with exertion,0.9
+Obesity,Sleep apnea/snoring,0.9
+Obesity,Fatigue,0.8
+Obesity,Joint pain (knees/hips),0.9
+Obesity,Skin folds infections,0.8
+Obesity,Low self-esteem/depression,0.8
+Obesity,Increased sweating,0.8
+Polycystic Ovary Syndrome (PCOS),Irregular/absent periods,1
+Polycystic Ovary Syndrome (PCOS),Excess hair growth (hirsutism),0.9
+Polycystic Ovary Syndrome (PCOS),Acne/oily skin,0.9
+Polycystic Ovary Syndrome (PCOS),Weight gain/obesity,0.9
+Polycystic Ovary Syndrome (PCOS),Thinning hair on scalp,0.8
+Polycystic Ovary Syndrome (PCOS),Difficulty getting pregnant (infertility),0.9
+Polycystic Ovary Syndrome (PCOS),Darkened skin patches (acanthosis nigricans),0.8
+Polycystic Ovary Syndrome (PCOS),Mood changes,0.8
+Addison’s Disease,Fatigue,1
+Addison’s Disease,Weight loss,0.9
+Addison’s Disease,Low blood pressure (hypotension),0.9
+Addison’s Disease,Darkening of skin (hyperpigmentation),0.9
+Addison’s Disease,Craving for salty foods,0.8
+Addison’s Disease,Nausea/vomiting,0.9
+Addison’s Disease,Abdominal pain,0.9
+Addison’s Disease,Muscle/joint pain,0.8
+Cushing’s Syndrome,Weight gain (especially face/trunk),1
+Cushing’s Syndrome,Moon face (rounded face),0.9
+Cushing’s Syndrome,Buffalo hump (fat on upper back),0.9
+Cushing’s Syndrome,Purple stretch marks (striae),0.9
+Cushing’s Syndrome,Thinning fragile skin,0.9
+Cushing’s Syndrome,Easy bruising,0.9
+Cushing’s Syndrome,Muscle weakness,0.9
+Cushing’s Syndrome,High blood pressure,0.9
+Arthritis (Osteoarthritis),Joint pain (worsens with activity),1
+Arthritis (Osteoarthritis),Joint stiffness (especially morning),0.9
+Arthritis (Osteoarthritis),Loss of flexibility,0.9
+Arthritis (Osteoarthritis),Grating/cracking sound in joint (crepitus),0.9
+Arthritis (Osteoarthritis),Joint swelling,0.8
+Arthritis (Osteoarthritis),Tenderness around joint,0.8
+Arthritis (Osteoarthritis),Bony growths (osteophytes),0.8
+Arthritis (Osteoarthritis),Decreased range of motion,0.9
+Rheumatoid Arthritis,Joint pain (symmetrical),1
+Rheumatoid Arthritis,Joint stiffness (worse in morning),0.9
+Rheumatoid Arthritis,Swollen/tender joints,0.9
+Rheumatoid Arthritis,Fatigue,0.9
+Rheumatoid Arthritis,Fever (low-grade),0.8
+Rheumatoid Arthritis,Loss of appetite,0.8
+Rheumatoid Arthritis,Joint deformity (late stage),0.9
+Rheumatoid Arthritis,Nodules under skin,0.8
+Gout,Sudden severe joint pain (often big toe),1
+Gout,Redness/warmth at joint,0.9
+Gout,Swelling in affected joint,0.9
+Gout,Tenderness to touch,0.9
+Gout,Limited range of motion,0.8
+Gout,Recurrent flare-ups,0.9
+Gout,"Tophi (urate crystal lumps, chronic cases)",0.8
+Gout,Night-time pain attacks,0.8
+Osteoporosis,Bone fractures (minimal trauma),1
+Osteoporosis,Back pain (from fractured vertebra),0.9
+Osteoporosis,Loss of height over time,0.9
+Osteoporosis,Stooped posture (kyphosis),0.9
+Osteoporosis,Weak/brittle bones,0.9
+Osteoporosis,Reduced bone density (diagnostic hallmark),0.9
+Osteoporosis,Decreased mobility,0.8
+Osteoporosis,Increased fracture risk (hip/wrist/spine),0.9
+Back Pain,Persistent lower/middle/upper back pain,1
+Back Pain,Stiffness in back,0.9
+Back Pain,Muscle spasms,0.9
+Back Pain,Pain radiating to buttocks/thighs,0.8
+Back Pain,Worsens with movement/lifting,0.9
+Back Pain,Improves with rest,0.8
+Back Pain,Limited flexibility,0.9
+Back Pain,Tenderness along spine,0.8
+Sciatica,Shooting pain from lower back to leg,1
+Sciatica,Numbness in leg/foot,0.9
+Sciatica,Tingling sensation,0.9
+Sciatica,Weakness in leg/foot,0.9
+Sciatica,Pain worsens with sitting/coughing,0.9
+Sciatica,One-sided leg pain,0.9
+Sciatica,Burning sensation in affected area,0.8
+Sciatica,Difficulty moving leg/foot,0.8
+Spondylitis,Chronic back pain/stiffness,1
+Spondylitis,Reduced flexibility (spine),0.9
+Spondylitis,Pain worse in morning/improves with activity,0.9
+Spondylitis,Hip/shoulder pain,0.9
+Spondylitis,Fatigue,0.8
+Spondylitis,Stooped posture,0.9
+Spondylitis,Limited chest expansion,0.9
+Spondylitis,Inflammation at tendon/ligament sites,0.8
+Fibromyalgia,Widespread body pain,1
+Fibromyalgia,Fatigue,0.9
+Fibromyalgia,Sleep disturbances,0.9
+Fibromyalgia,Memory/concentration issues (“fibro fog”),0.9
+Fibromyalgia,Tender points on body,0.9
+Fibromyalgia,Headaches,0.8
+Fibromyalgia,Depression/anxiety,0.8
+Fibromyalgia,Stiffness in morning,0.9
+Muscle Cramps,Sudden sharp muscle pain,1
+Muscle Cramps,Visible muscle knot/hardening,0.9
+Muscle Cramps,Involuntary muscle contractions,0.9
+Muscle Cramps,Pain lasting seconds to minutes,0.9
+Muscle Cramps,Stiffness in affected muscle,0.8
+Muscle Cramps,Occur during rest or exercise,0.9
+Muscle Cramps,Temporary immobility,0.8
+Muscle Cramps,Muscle soreness after cramp,0.8
+Tendinitis,Pain at tendon site (worse with movement),1
+Tendinitis,Swelling at tendon,0.9
+Tendinitis,Tenderness along tendon,0.9
+Tendinitis,Stiffness (especially morning),0.9
+Tendinitis,Reduced range of motion,0.9
+Tendinitis,Crepitus (grating feeling),0.8
+Tendinitis,Worsens with repetitive activity,0.9
+Tendinitis,Localized warmth/redness,0.8
+Acne,Pimples (face/chest/back),1
+Acne,Blackheads/whiteheads,0.9
+Acne,Red/inflamed skin,0.9
+Acne,Pustules (pus-filled lesions),0.9
+Acne,Cystic nodules (severe cases),0.9
+Acne,Scarring after healing,0.9
+Acne,Excess oily skin,0.8
+Acne,Tenderness/pain in lesions,0.8
+Eczema,Itchy skin,1
+Eczema,Red/inflamed patches,0.9
+Eczema,Dry/scaly skin,0.9
+Eczema,Thickened/lichenified skin,0.9
+Eczema,Fluid-filled blisters (acute),0.9
+Eczema,Crusting/oozing skin,0.8
+Eczema,Worsens with allergens/irritants,0.9
+Eczema,Recurring flare-ups,0.9
+Psoriasis,Thick scaly patches (plaques),1
+Psoriasis,Silvery-white scales,0.9
+Psoriasis,Itchy/dry skin,0.9
+Psoriasis,Red inflamed lesions,0.9
+Psoriasis,Cracked skin (may bleed),0.9
+Psoriasis,Nail pitting/discoloration,0.8
+Psoriasis,Joint pain (psoriatic arthritis),0.8
+Psoriasis,Symmetrical distribution (elbows/knees/scalp),0.9
+Fungal Infections (Ringworm),Circular red patches,1
+Fungal Infections (Ringworm),Itchy rash,0.9
+Fungal Infections (Ringworm),Scaly skin,0.9
+Fungal Infections (Ringworm),Raised edges with clear center,0.9
+Fungal Infections (Ringworm),Spreads outward in rings,0.9
+Fungal Infections (Ringworm),Hair loss in affected area (scalp),0.8
+Fungal Infections (Ringworm),Multiple lesions possible,0.9
+Fungal Infections (Ringworm),Contagious skin-to-skin spread,0.9
+Athlete’s Foot,Itchy burning feet,1
+Athlete’s Foot,Cracked/peeling skin between toes,0.9
+Athlete’s Foot,Redness/inflammation,0.9
+Athlete’s Foot,Blisters on feet,0.8
+Athlete’s Foot,Scaling/flaking skin,0.9
+Athlete’s Foot,Bad odor,0.8
+Athlete’s Foot,Spreads to toenails (onychomycosis),0.9
+Athlete’s Foot,Pain/discomfort while walking,0.8
+Urticaria (Hives),Raised itchy welts,1
+Urticaria (Hives),Red or skin-colored bumps,0.9
+Urticaria (Hives),Swelling in affected area,0.9
+Urticaria (Hives),Rapid onset (minutes to hours),0.9
+Urticaria (Hives),"Triggers (allergens, food, stress)",0.9
+Urticaria (Hives),Temporary (disappear within 24 hrs),0.9
+Urticaria (Hives),Burning/stinging sensation,0.8
+Urticaria (Hives),Recurring episodes,0.9
+Cellulitis,Red/swollen skin area,1
+Cellulitis,Warmth over affected site,0.9
+Cellulitis,Tenderness/pain,0.9
+Cellulitis,Spreading redness (progressive),0.9
+Cellulitis,Fever/chills (systemic infection),0.9
+Cellulitis,Swelling/edema,0.9
+Cellulitis,Blisters/skin dimpling,0.8
+Cellulitis,Lymph node swelling,0.8
+Boils,Painful red lump (furuncle),1
+Boils,Pus-filled center,0.9
+Boils,Swelling/tenderness,0.9
+Boils,Warmth at site,0.9
+Boils,Head formation with drainage,0.9
+Boils,Multiple boils (carbuncle),0.9
+Boils,Scarring after healing,0.8
+Boils,Fever (if severe infection),0.8
+Vitiligo,White depigmented patches,1
+Vitiligo,Symmetrical distribution,0.9
+Vitiligo,Loss of skin pigment (melanocytes),0.9
+Vitiligo,Hair whitening in affected area,0.8
+Vitiligo,Progressive enlargement of patches,0.9
+Vitiligo,More noticeable in sun-exposed areas,0.9
+Vitiligo,Skin sensitivity (sunburn),0.8
+Vitiligo,No itching/pain (usually asymptomatic),0.8
+Herpes Zoster (Shingles),Painful rash (one side of body),1
+Herpes Zoster (Shingles),Clustered fluid-filled blisters,0.9
+Herpes Zoster (Shingles),Burning/tingling sensation,0.9
+Herpes Zoster (Shingles),Itchy skin,0.8
+Herpes Zoster (Shingles),Severe nerve pain,0.9
+Herpes Zoster (Shingles),Fever/malaise,0.8
+Herpes Zoster (Shingles),Scabbing after blisters dry,0.9
+Herpes Zoster (Shingles),Post-herpetic neuralgia (chronic pain),0.9
+Urinary Tract Infection (UTI),Burning sensation while urinating,1
+Urinary Tract Infection (UTI),Frequent urge to urinate,0.9
+Urinary Tract Infection (UTI),Cloudy urine,0.9
+Urinary Tract Infection (UTI),Foul-smelling urine,0.9
+Urinary Tract Infection (UTI),Blood in urine (hematuria),0.9
+Urinary Tract Infection (UTI),Pelvic pain (women),0.8
+Urinary Tract Infection (UTI),Low-grade fever,0.8
+Urinary Tract Infection (UTI),Incomplete bladder emptying,0.9
+Kidney Stones,Severe flank pain (side/back),1
+Kidney Stones,Pain radiating to lower abdomen/groin,0.9
+Kidney Stones,Blood in urine,0.9
+Kidney Stones,Foul-smelling/cloudy urine,0.9
+Kidney Stones,Painful urination,0.9
+Kidney Stones,Nausea/vomiting,0.8
+Kidney Stones,Frequent urination,0.8
+Kidney Stones,Restlessness (difficulty finding comfortable position),0.8
+Chronic Kidney Disease,Fatigue/weakness,1
+Chronic Kidney Disease,Swelling in legs/ankles/feet,0.9
+Chronic Kidney Disease,Frothy urine (proteinuria),0.9
+Chronic Kidney Disease,Loss of appetite,0.9
+Chronic Kidney Disease,Nausea/vomiting,0.8
+Chronic Kidney Disease,High blood pressure,0.9
+Chronic Kidney Disease,Difficulty concentrating,0.8
+Chronic Kidney Disease,Itchy/dry skin,0.8
+Acute Kidney Injury,Sudden decrease in urine output,1
+Acute Kidney Injury,Swelling in legs/feet/ankles,0.9
+Acute Kidney Injury,Fatigue/weakness,0.9
+Acute Kidney Injury,Nausea/vomiting,0.8
+Acute Kidney Injury,Shortness of breath (fluid retention),0.9
+Acute Kidney Injury,Confusion/drowsiness,0.8
+Acute Kidney Injury,Irregular heartbeat (electrolyte imbalance),0.9
+Acute Kidney Injury,Chest pain/pressure,0.8
+Cystitis,Frequent urination,1
+Cystitis,Burning urination,0.9
+Cystitis,Lower abdominal discomfort,0.9
+Cystitis,Cloudy/foul-smelling urine,0.9
+Cystitis,Blood in urine,0.9
+Cystitis,Low-grade fever,0.8
+Cystitis,Sense of incomplete emptying,0.9
+Cystitis,Discomfort during intercourse,0.8
+Pyelonephritis,High fever,1
+Pyelonephritis,Chills/shivering,0.9
+Pyelonephritis,Severe flank pain,0.9
+Pyelonephritis,Nausea/vomiting,0.9
+Pyelonephritis,Painful urination,0.9
+Pyelonephritis,Blood in urine,0.9
+Pyelonephritis,Frequent urination,0.9
+Pyelonephritis,Malaise/fatigue,0.8
+Nephrotic Syndrome,Severe swelling (edema) around eyes/ankles,1
+Nephrotic Syndrome,Foamy urine (excess protein),0.9
+Nephrotic Syndrome,Weight gain (fluid retention),0.9
+Nephrotic Syndrome,Fatigue,0.9
+Nephrotic Syndrome,Loss of appetite,0.8
+Nephrotic Syndrome,High cholesterol,0.9
+Nephrotic Syndrome,Shortness of breath (fluid buildup),0.8
+Nephrotic Syndrome,Frequent infections,0.8
+Prostatitis,Painful urination,1
+Prostatitis,Difficulty urinating,0.9
+Prostatitis,Frequent urination (especially at night),0.9
+Prostatitis,Pelvic/perineal pain,0.9
+Prostatitis,Painful ejaculation,0.9
+Prostatitis,Cloudy urine,0.9
+Prostatitis,Fever/chills (acute type),0.8
+Prostatitis,Lower back pain,0.8
+Benign Prostatic Hyperplasia (BPH),Frequent urination,1
+Benign Prostatic Hyperplasia (BPH),Weak urine stream,0.9
+Benign Prostatic Hyperplasia (BPH),Difficulty starting urination,0.9
+Benign Prostatic Hyperplasia (BPH),Urgency to urinate,0.9
+Benign Prostatic Hyperplasia (BPH),Incomplete bladder emptying,0.9
+Benign Prostatic Hyperplasia (BPH),Straining to urinate,0.9
+Benign Prostatic Hyperplasia (BPH),Dribbling at end of urination,0.9
+Benign Prostatic Hyperplasia (BPH),Frequent nighttime urination,0.9
+Glomerulonephritis,Blood in urine (cola-colored),1
+Glomerulonephritis,Swelling in face/legs,0.9
+Glomerulonephritis,Foamy urine (proteinuria),0.9
+Glomerulonephritis,High blood pressure,0.9
+Glomerulonephritis,Decreased urine output,0.9
+Glomerulonephritis,Fatigue,0.8
+Glomerulonephritis,Nausea/vomiting,0.8
+Glomerulonephritis,Joint/muscle aches (autoimmune type),0.8
+Menstrual Cramps (Dysmenorrhea),Cramping pain in lower abdomen,1
+Menstrual Cramps (Dysmenorrhea),Pain radiating to lower back/thighs,0.9
+Menstrual Cramps (Dysmenorrhea),Headache,0.8
+Menstrual Cramps (Dysmenorrhea),Nausea,0.8
+Menstrual Cramps (Dysmenorrhea),Diarrhea/loose stools,0.8
+Menstrual Cramps (Dysmenorrhea),Fatigue,0.8
+Menstrual Cramps (Dysmenorrhea),Dizziness,0.8
+Menstrual Cramps (Dysmenorrhea),Irritability/mood changes,0.8
+Endometriosis,Pelvic pain (especially during menstruation),1
+Endometriosis,Pain during intercourse,0.9
+Endometriosis,Painful urination/bowel movements during periods,0.9
+Endometriosis,Heavy/prolonged menstrual bleeding,0.9
+Endometriosis,Infertility,0.9
+Endometriosis,Chronic lower back pain,0.8
+Endometriosis,Bloating/nausea,0.8
+Endometriosis,Fatigue,0.8
+Pelvic Inflammatory Disease (PID),Lower abdominal pain,1
+Pelvic Inflammatory Disease (PID),Fever/chills,0.9
+Pelvic Inflammatory Disease (PID),Unusual vaginal discharge (foul-smelling),0.9
+Pelvic Inflammatory Disease (PID),Pain during intercourse,0.9
+Pelvic Inflammatory Disease (PID),Painful/frequent urination,0.9
+Pelvic Inflammatory Disease (PID),Irregular menstrual bleeding,0.8
+Pelvic Inflammatory Disease (PID),Nausea/vomiting,0.8
+Pelvic Inflammatory Disease (PID),Fatigue/malaise,0.8
+Ovarian Cyst,Pelvic pain (one side),1
+Ovarian Cyst,Abdominal bloating/swelling,0.9
+Ovarian Cyst,Pain during intercourse,0.9
+Ovarian Cyst,Painful urination/bowel movements,0.9
+Ovarian Cyst,Menstrual irregularities,0.9
+Ovarian Cyst,Lower back/thigh pain,0.8
+Ovarian Cyst,Nausea/vomiting (if ruptured),0.8
+Ovarian Cyst,Frequent urination (pressure on bladder),0.8
+Infertility,Inability to conceive after 12 months of unprotected intercourse,1
+Infertility,Irregular/absent menstrual cycles (women),0.9
+Infertility,Painful periods (women),0.8
+Infertility,Erectile/ejaculation issues (men),0.9
+Infertility,Low sperm count/abnormal semen (men),0.9
+Infertility,"Hormonal symptoms (hair loss, weight gain, acne)",0.8
+Infertility,Pelvic pain (endometriosis/PCOS-related),0.8
+Infertility,Recurrent miscarriages,0.8
+Erectile Dysfunction,Difficulty achieving erection,1
+Erectile Dysfunction,Difficulty maintaining erection,0.9
+Erectile Dysfunction,Reduced sexual desire,0.9
+Erectile Dysfunction,Premature/delayed ejaculation,0.8
+Erectile Dysfunction,Stress/anxiety during intercourse,0.8
+Erectile Dysfunction,Low self-confidence,0.8
+Erectile Dysfunction,Relationship strain,0.8
+Erectile Dysfunction,"Underlying conditions (diabetes, hypertension)",0.9
+Prostate Cancer,Difficulty urinating,1
+Prostate Cancer,Weak urine stream,0.9
+Prostate Cancer,Frequent urination (especially at night),0.9
+Prostate Cancer,Blood in urine/semen,0.9
+Prostate Cancer,Pelvic discomfort,0.8
+Prostate Cancer,Erectile dysfunction,0.9
+Prostate Cancer,Bone pain (advanced stage),0.9
+Prostate Cancer,Unexplained weight loss/fatigue,0.8
+Cervical Cancer,Abnormal vaginal bleeding (between periods/after sex),1
+Cervical Cancer,Foul-smelling vaginal discharge,0.9
+Cervical Cancer,Pelvic pain,0.9
+Cervical Cancer,Pain during intercourse,0.9
+Cervical Cancer,Heavy/prolonged periods,0.9
+Cervical Cancer,Painful urination,0.8
+Cervical Cancer,Leg swelling (advanced stage),0.8
+Cervical Cancer,Unexplained weight loss/fatigue,0.8
+Breast Cancer,Breast lump/thickening,1
+Breast Cancer,Change in breast size/shape,0.9
+Breast Cancer,Nipple discharge (blood/pus),0.9
+Breast Cancer,Inverted/retracted nipple,0.9
+Breast Cancer,Redness/peeling of breast skin,0.9
+Breast Cancer,Breast pain/discomfort,0.8
+Breast Cancer,Swelling in armpit (lymph nodes),0.9
+Breast Cancer,Unexplained weight loss/fatigue,0.8
+Uterine Fibroids,Heavy/prolonged menstrual bleeding,1
+Uterine Fibroids,Pelvic pressure/pain,0.9
+Uterine Fibroids,Frequent urination,0.9
+Uterine Fibroids,Difficulty emptying bladder,0.9
+Uterine Fibroids,Constipation,0.9
+Uterine Fibroids,Backache/leg pains,0.8
+Uterine Fibroids,Abdominal bloating/swelling,0.8
+Uterine Fibroids,Pain during intercourse,0.8
+Anxiety Disorder,Excessive worry or fear,1
+Anxiety Disorder,Restlessness or feeling on edge,0.9
+Anxiety Disorder,Rapid heartbeat (palpitations),0.9
+Anxiety Disorder,Sweating or trembling,0.9
+Anxiety Disorder,Difficulty concentrating,0.9
+Anxiety Disorder,Sleep disturbances,0.8
+Anxiety Disorder,Shortness of breath,0.8
+Anxiety Disorder,Muscle tension,0.8
+Depression,Persistent sadness/low mood,1
+Depression,Loss of interest in activities,0.9
+Depression,Fatigue or low energy,0.9
+Depression,Changes in appetite or weight,0.9
+Depression,Sleep disturbances (insomnia/hypersomnia),0.9
+Depression,Feelings of guilt or worthlessness,0.9
+Depression,Difficulty concentrating,0.8
+Depression,Thoughts of death or suicide,0.9
+Bipolar Disorder,Manic episodes (elevated/irritable mood),1
+Bipolar Disorder,Decreased need for sleep (mania),0.9
+Bipolar Disorder,Rapid speech or racing thoughts,0.9
+Bipolar Disorder,Impulsive/risky behavior,0.9
+Bipolar Disorder,Depressive episodes (low mood),0.9
+Bipolar Disorder,Loss of interest in daily activities,0.9
+Bipolar Disorder,Changes in energy levels,0.9
+Bipolar Disorder,Difficulty concentrating,0.8
+Schizophrenia,Hallucinations (hearing voices),1
+Schizophrenia,Delusions (false beliefs),0.9
+Schizophrenia,Disorganized speech,0.9
+Schizophrenia,Social withdrawal,0.9
+Schizophrenia,Reduced emotional expression,0.9
+Schizophrenia,Trouble with memory/attention,0.8
+Schizophrenia,Neglect of personal hygiene,0.8
+Schizophrenia,Lack of motivation,0.8
+Insomnia,Difficulty falling asleep,1
+Insomnia,Frequent nighttime awakenings,0.9
+Insomnia,Waking up too early,0.9
+Insomnia,Daytime fatigue or sleepiness,0.9
+Insomnia,Irritability or mood disturbances,0.9
+Insomnia,Decreased performance/concentration,0.9
+Insomnia,Restlessness in bed,0.8
+Insomnia,Headaches due to poor sleep,0.8
+Stress Disorder,Constant tension or worry,1
+Stress Disorder,Headaches/muscle pain,0.9
+Stress Disorder,Sleep disturbances,0.9
+Stress Disorder,Upset stomach/digestive issues,0.8
+Stress Disorder,Rapid heartbeat,0.9
+Stress Disorder,Short temper/irritability,0.9
+Stress Disorder,Fatigue,0.8
+Stress Disorder,Difficulty concentrating,0.8
+Obsessive Compulsive Disorder (OCD),Recurrent intrusive thoughts (obsessions),1
+Obsessive Compulsive Disorder (OCD),Compulsive behaviors (repeated rituals),0.9
+Obsessive Compulsive Disorder (OCD),Excessive handwashing/checking,0.9
+Obsessive Compulsive Disorder (OCD),Difficulty controlling thoughts,0.9
+Obsessive Compulsive Disorder (OCD),Fear of contamination,0.9
+Obsessive Compulsive Disorder (OCD),Time-consuming rituals,0.9
+Obsessive Compulsive Disorder (OCD),Anxiety if routines not followed,0.8
+Obsessive Compulsive Disorder (OCD),Impaired daily functioning,0.8
+Post-Traumatic Stress Disorder (PTSD),Flashbacks of traumatic event,1
+Post-Traumatic Stress Disorder (PTSD),Nightmares related to trauma,0.9
+Post-Traumatic Stress Disorder (PTSD),Avoidance of reminders,0.9
+Post-Traumatic Stress Disorder (PTSD),Hypervigilance (on edge),0.9
+Post-Traumatic Stress Disorder (PTSD),Irritability/angry outbursts,0.9
+Post-Traumatic Stress Disorder (PTSD),Sleep disturbances,0.9
+Post-Traumatic Stress Disorder (PTSD),Difficulty concentrating,0.8
+Post-Traumatic Stress Disorder (PTSD),Emotional numbness,0.8
+Panic Disorder,Recurrent sudden panic attacks,1
+Panic Disorder,Rapid heartbeat or chest pain,0.9
+Panic Disorder,Sweating/trembling,0.9
+Panic Disorder,Shortness of breath,0.9
+Panic Disorder,Dizziness/lightheadedness,0.9
+Panic Disorder,Fear of losing control/dying,0.9
+Panic Disorder,Nausea or stomach upset,0.8
+Panic Disorder,Chills or hot flashes,0.8
+Eating Disorders,Preoccupation with body weight/shape,1
+Eating Disorders,Extreme restriction of food intake,0.9
+Eating Disorders,Binge eating episodes,0.9
+Eating Disorders,Self-induced vomiting,0.9
+Eating Disorders,Excessive exercise,0.9
+Eating Disorders,Distorted body image,0.9
+Eating Disorders,Irregular/absent menstruation,0.8
+Eating Disorders,Weakness or fatigue,0.8
+Hand Foot and Mouth Disease,Fever,1
+Hand Foot and Mouth Disease,Painful red blisters on hands feet mouth,1
+Hand Foot and Mouth Disease,Sore throat,0.9
+Hand Foot and Mouth Disease,Loss of appetite,0.8
+Hand Foot and Mouth Disease,Fatigue or irritability,0.8
+Hand Foot and Mouth Disease,Headache,0.8
+Hand Foot and Mouth Disease,Mouth ulcers,0.9
+Hand Foot and Mouth Disease,Rash on buttocks or legs,0.8
+Scarlet Fever,Sore throat,1
+Scarlet Fever,Red rash with sandpaper texture,1
+Scarlet Fever,High fever,0.9
+Scarlet Fever,Strawberry tongue (red bumpy tongue),0.9
+Scarlet Fever,Swollen neck glands,0.8
+Scarlet Fever,Headache,0.8
+Scarlet Fever,Nausea or vomiting,0.8
+Scarlet Fever,Abdominal pain,0.8
+Rickets,Bone pain or tenderness,1
+Rickets,Bowed legs,1
+Rickets,Delayed growth,0.9
+Rickets,Delayed motor skills,0.8
+Rickets,Dental deformities,0.9
+Rickets,Weakness in muscles,0.9
+Rickets,Frequent fractures,0.9
+Rickets,Swelling in wrists and ankles,0.8
+Anemia (Iron Deficiency),Fatigue or weakness,1
+Anemia (Iron Deficiency),Pale skin,1
+Anemia (Iron Deficiency),Shortness of breath,0.9
+Anemia (Iron Deficiency),Dizziness or lightheadedness,0.9
+Anemia (Iron Deficiency,Cold hands and feet,0.8
+Anemia (Iron Deficiency),Brittle nails,0.8
+Anemia (Iron Deficiency),Chest pain or rapid heartbeat,0.9
+Anemia (Iron Deficiency),Headaches,0.8
+Vitamin D Deficiency,Bone pain,1
+Vitamin D Deficiency,Frequent fractures,0.9
+Vitamin D Deficiency,Muscle weakness,0.9
+Vitamin D Deficiency,Fatigue,0.9
+Vitamin D Deficiency,Low mood or depression,0.8
+Vitamin D Deficiency,Slow wound healing,0.9
+Vitamin D Deficiency,Hair loss,0.8
+Vitamin D Deficiency,Weak immune system,0.8
+Vitamin B12 Deficiency,Fatigue or weakness,1
+Vitamin B12 Deficiency,Pale or jaundiced skin,0.9
+Vitamin B12 Deficiency,Numbness or tingling in hands/feet,0.9
+Vitamin B12 Deficiency,Unsteady movement/balance issues,0.9
+Vitamin B12 Deficiency,Shortness of breath,0.9
+Vitamin B12 Deficiency,Swollen tongue,0.8
+Vitamin B12 Deficiency,Difficulty thinking or memory loss,0.9
+Vitamin B12 Deficiency,Heart palpitations,0.8
+Dehydration,Extreme thirst,1
+Dehydration,Dark yellow urine,0.9
+Dehydration,Dizziness or lightheadedness,0.9
+Dehydration,Dry mouth and skin,0.9
+Dehydration,Decreased urination,0.9
+Dehydration,Headache,0.8
+Dehydration,Fatigue,0.8
+Dehydration,Sunken eyes,0.8
+Malnutrition,Unintentional weight loss,1
+Malnutrition,Fatigue or weakness,1
+Malnutrition,Swelling in legs or belly (edema),0.9
+Malnutrition,Dry skin and hair,0.9
+Malnutrition,Delayed wound healing,0.9
+Malnutrition,Stunted growth (in children),0.9
+Malnutrition,Frequent infections,0.9
+Malnutrition,Loss of muscle mass,0.9
+Heat Stroke,High body temperature (>40°C),1
+Heat Stroke,Confusion or altered mental state,1
+Heat Stroke,Hot dry skin,0.9
+Heat Stroke,Rapid heartbeat,0.9
+Heat Stroke,Nausea and vomiting,0.9
+Heat Stroke,Headache,0.8
+Heat Stroke,Dizziness,0.9
+Heat Stroke,Seizures or unconsciousness,1
+Hypothermia,Shivering,1
+Hypothermia,Slurred speech,0.9
+Hypothermia,Slow shallow breathing,0.9
+Hypothermia,Weak pulse,0.9
+Hypothermia,Clumsiness or lack of coordination,0.9
+Hypothermia,Drowsiness or confusion,0.9
+Hypothermia,Bright red cold skin (in infants),0.8
+Hypothermia,Loss of consciousness,1
+Lung Cancer,Chronic cough that worsens,1
+Lung Cancer,Coughing up blood,1
+Lung Cancer,Chest pain,0.9
+Lung Cancer,Shortness of breath,0.9
+Lung Cancer,Unexplained weight loss,0.9
+Lung Cancer,Hoarseness,0.8
+Lung Cancer,Recurrent lung infections,0.9
+Lung Cancer,Fatigue,0.8
+Breast Cancer,Breast lump or thickening,1
+Breast Cancer,Change in breast size or shape,0.9
+Breast Cancer,Nipple discharge (sometimes bloody),0.9
+Breast Cancer,Nipple inversion,0.9
+Breast Cancer,Redness or dimpling of breast skin,0.9
+Breast Cancer,Breast pain,0.8
+Breast Cancer,Swelling in underarm lymph nodes,0.9
+Breast Cancer,Unexplained weight loss,0.8
+Colorectal Cancer,Blood in stool,1
+Colorectal Cancer,Change in bowel habits,1
+Colorectal Cancer,Abdominal pain or cramping,0.9
+Colorectal Cancer,Unexplained weight loss,0.9
+Colorectal Cancer,Fatigue or weakness,0.9
+Colorectal Cancer,Incomplete bowel emptying,0.8
+Colorectal Cancer,Narrow stools,0.8
+Colorectal Cancer,Anemia,0.9
+Prostate Cancer,Frequent urination,1
+Prostate Cancer,Difficulty starting or stopping urination,1
+Prostate Cancer,Weak urine stream,0.9
+Prostate Cancer,Blood in urine or semen,0.9
+Prostate Cancer,Erectile dysfunction,0.9
+Prostate Cancer,Pelvic discomfort,0.8
+Prostate Cancer,Bone pain (advanced),0.9
+Prostate Cancer,Unexplained weight loss,0.8
+Stomach Cancer,Indigestion or stomach discomfort,1
+Stomach Cancer,Nausea or vomiting,0.9
+Stomach Cancer,Loss of appetite,0.9
+Stomach Cancer,Unexplained weight loss,0.9
+Stomach Cancer,Feeling full quickly,0.9
+Stomach Cancer,Blood in stool or vomit,1
+Stomach Cancer,Fatigue,0.8
+Stomach Cancer,Stomach pain,0.9
+Liver Cancer,Upper abdominal pain,1
+Liver Cancer,Swelling in abdomen,1
+Liver Cancer,Jaundice (yellowing skin and eyes),1
+Liver Cancer,Loss of appetite,0.9
+Liver Cancer,Unexplained weight loss,0.9
+Liver Cancer,Nausea or vomiting,0.9
+Liver Cancer,Fatigue,0.9
+Liver Cancer,Easy bruising or bleeding,0.9
+Pancreatic Cancer,Abdominal pain radiating to back,1
+Pancreatic Cancer,Unexplained weight loss,1
+Pancreatic Cancer,Loss of appetite,0.9
+Pancreatic Cancer,Jaundice (yellow skin and eyes),1
+Pancreatic Cancer,Dark urine and pale stools,0.9
+Pancreatic Cancer,Nausea or vomiting,0.9
+Pancreatic Cancer,Blood clots,0.9
+Pancreatic Cancer,Fatigue,0.8
+Skin Cancer (Melanoma),New or changing mole,1
+Skin Cancer (Melanoma,Asymmetrical mole shape,0.9
+Skin Cancer (Melanoma,Irregular mole borders,0.9
+Skin Cancer (Melanoma,Multiple colors in a mole,0.9
+Skin Cancer (Melanoma,Itching or bleeding mole,0.9
+Skin Cancer (Melanoma,Large mole (>6mm),0.8
+Skin Cancer (Melanoma,Skin sore that doesn’t heal,0.9
+Skin Cancer (Melanoma,Spread to lymph nodes (advanced),0.9
+Cervical Cancer,Abnormal vaginal bleeding,1
+Cervical Cancer,Pelvic pain,0.9
+Cervical Cancer,Pain during intercourse,0.9
+Cervical Cancer,Unusual vaginal discharge,0.9
+Cervical Cancer,Fatigue,0.8
+Cervical Cancer,Leg pain or swelling (advanced),0.9
+Cervical Cancer,Unexplained weight loss,0.9
+Cervical Cancer,Loss of appetite,0.8
+Blood Cancer (Leukemia),Frequent infections,1
+Blood Cancer (Leukemia),Fatigue or weakness,1
+Blood Cancer (Leukemia),Easy bruising or bleeding,1
+Blood Cancer (Leukemia),Swollen lymph nodes,0.9
+Blood Cancer (Leukemia),Bone or joint pain,0.9
+Blood Cancer (Leukemia),Night sweats,0.9
+Blood Cancer (Leukemia),Fever,0.9
+Blood Cancer (Leukemia),Unexplained weight loss,0.9
+Conjunctivitis (Pink Eye),Redness in eye,1
+Conjunctivitis (Pink Eye),Itchy or burning eyes,1
+Conjunctivitis (Pink Eye),Watery or thick discharge,1
+Conjunctivitis (Pink Eye),Crust on eyelids,0.9
+Conjunctivitis (Pink Eye),Swollen eyelids,0.9
+Conjunctivitis (Pink Eye),Gritty feeling in eye,0.9
+Conjunctivitis (Pink Eye),Increased tearing,0.9
+Conjunctivitis (Pink Eye),Light sensitivity,0.8
+Cataract,Cloudy or blurred vision,1
+Cataract,Difficulty seeing at night,1
+Cataract,Sensitivity to light and glare,0.9
+Cataract,Fading or yellowing of colors,0.9
+Cataract,Halos around lights,0.9
+Cataract,Double vision in one eye,0.9
+Cataract,Frequent changes in eyeglass prescription,0.9
+Cataract,Decreased vision clarity,0.9
+Glaucoma,Gradual loss of peripheral vision,1
+Glaucoma,Tunnel vision (advanced),1
+Glaucoma,Severe eye pain,0.9
+Glaucoma,Headache,0.9
+Glaucoma,Nausea or vomiting,0.9
+Glaucoma,Blurred vision,0.9
+Glaucoma,Halos around lights,0.9
+Glaucoma,Redness in eye,0.8
+Otitis Media (Ear Infection),Ear pain,1
+Otitis Media (Ear Infection),Difficulty hearing,1
+Otitis Media (Ear Infection),Fever,0.9
+Otitis Media (Ear Infection),Fluid drainage from ear,0.9
+Otitis Media (Ear Infection),Irritability (children),0.9
+Otitis Media (Ear Infection),Loss of balance,0.9
+Otitis Media (Ear Infection),Fullness in ear,0.8
+Otitis Media (Ear Infection),Headache,0.8
+Hearing Loss,Difficulty understanding speech,1
+Hearing Loss,Asking others to repeat often,1
+Hearing Loss,Turning up TV or radio volume,1
+Hearing Loss,Trouble hearing in noisy places,0.9
+Hearing Loss,Muffled hearing,0.9
+Hearing Loss,Withdrawal from conversations,0.9
+Hearing Loss,Tinnitus (ringing in ears),0.9
+Hearing Loss,Speaking louder than normal,0.8
+Vertigo,Spinning sensation (dizziness),1
+Vertigo,Loss of balance,1
+Vertigo,Nausea,0.9
+Vertigo,Vomiting,0.9
+Vertigo,Abnormal eye movements (nystagmus),0.9
+Vertigo,Headache,0.9
+Vertigo,Ear fullness,0.8
+Vertigo,Lightheadedness,0.9
+Allergic Reactions,Sneezing,1
+Allergic Reactions,Runny or stuffy nose,1
+Allergic Reactions,Itchy or watery eyes,1
+Allergic Reactions,Hives or skin rash,0.9
+Allergic Reactions,"Swelling of lips, tongue, or face",0.9
+Allergic Reactions,Shortness of breath (severe),1
+Allergic Reactions,Wheezing,0.9
+Allergic Reactions,Anaphylaxis (emergency),1
+Sepsis,Fever,1
+Sepsis,Chills or shivering,1
+Sepsis,Confusion or disorientation,1
+Sepsis,Rapid breathing,1
+Sepsis,Rapid heart rate,1
+Sepsis,Low blood pressure,0.9
+Sepsis,Decreased urine output,0.9
+Sepsis,Extreme weakness,0.9
+Lupus (SLE),Butterfly-shaped rash on face,1
+Lupus (SLE),Joint pain and swelling,1
+Lupus (SLE),Fatigue,1
+Lupus (SLE),Fever,0.9
+Lupus (SLE),Photosensitivity (sun sensitivity),0.9
+Lupus (SLE),Hair loss,0.9
+Lupus (SLE),Mouth ulcers,0.9
+Lupus (SLE),Chest pain (pleurisy),0.9
+Lyme Disease,Bull’s-eye rash (erythema migrans),1
+Lyme Disease,Fever,1
+Lyme Disease,Chills,0.9
+Lyme Disease,Fatigue,0.9
+Lyme Disease,Headache,0.9
+Lyme Disease,Muscle or joint pain,0.9
+Lyme Disease,Swollen lymph nodes,0.9
+Lyme Disease,Nerve problems (late stage),0.9
